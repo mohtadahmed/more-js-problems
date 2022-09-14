@@ -12,4 +12,4 @@ let givenMileValue = 12;
 
 let convertMileToKilometer = mileToKilometer(givenMileValue);
 
-console.log(parseFloat(convertMileToKilometer.toFixed(2))); 
+console.log(givenMileValue,"Mile is equal to", parseFloat(convertMileToKilometer.toFixed(2)), "Kilometer");
